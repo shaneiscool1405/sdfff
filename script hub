@@ -1,0 +1,108 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local PetSimX = Instance.new("TextButton")
+local Jailbreak = Instance.new("TextButton")
+local LumberTycoon2 = Instance.new("TextButton")
+local BuildABoatForTreasure = Instance.new("TextButton")
+local MadCity = Instance.new("TextButton")
+local LegendsOfSpeed = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+main.Position = UDim2.new(0.200815499, 0, 0.193406597, 0)
+main.Size = UDim2.new(0, 587, 0, 278)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+label.Size = UDim2.new(0, 587, 0, 38)
+label.Font = Enum.Font.SciFi
+label.Text = "lunatic71's script hub"
+label.TextColor3 = Color3.fromRGB(214, 0, 0)
+label.TextSize = 18.000
+
+PetSimX.Name = "PetSimX"
+PetSimX.Parent = ScreenGui
+PetSimX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PetSimX.Position = UDim2.new(0.209989876, 0, 0.334065944, 0)
+PetSimX.Size = UDim2.new(0, 148, 0, 50)
+PetSimX.Font = Enum.Font.Oswald
+PetSimX.Text = "Pet Simulator X"
+PetSimX.TextColor3 = Color3.fromRGB(0, 0, 0)
+PetSimX.TextSize = 18.000
+PetSimX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/not-weuz/Lua/main/petsimx.lua"))()
+end)
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = ScreenGui
+Jailbreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.Position = UDim2.new(0.424057126, 0, 0.334065944, 0)
+Jailbreak.Size = UDim2.new(0, 148, 0, 50)
+Jailbreak.Font = Enum.Font.Oswald
+Jailbreak.Text = "Jailbreak"
+Jailbreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jailbreak.TextSize = 18.000
+Jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua"))()
+end)
+
+LumberTycoon2.Name = "LumberTycoon2"
+LumberTycoon2.Parent = ScreenGui
+LumberTycoon2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LumberTycoon2.Position = UDim2.new(0.640163183, 0, 0.334065944, 0)
+LumberTycoon2.Size = UDim2.new(0, 148, 0, 50)
+LumberTycoon2.Font = Enum.Font.Oswald
+LumberTycoon2.Text = "Lumber Tycoon 2"
+LumberTycoon2.TextColor3 = Color3.fromRGB(0, 0, 0)
+LumberTycoon2.TextSize = 18.000
+LumberTycoon2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync'https://ancestordevelopment.wtf/Ancestor')('Ancestor V3 Winning :D');
+end)
+
+BuildABoatForTreasure.Name = "BuildABoatForTreasure"
+BuildABoatForTreasure.Parent = ScreenGui
+BuildABoatForTreasure.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BuildABoatForTreasure.Position = UDim2.new(0.424057126, 0, 0.551648378, 0)
+BuildABoatForTreasure.Size = UDim2.new(0, 148, 0, 50)
+BuildABoatForTreasure.Font = Enum.Font.Oswald
+BuildABoatForTreasure.Text = "Build A Boat For Treasure"
+BuildABoatForTreasure.TextColor3 = Color3.fromRGB(0, 0, 0)
+BuildABoatForTreasure.TextSize = 18.000
+BuildABoatForTreasure.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Toxic-Mods/KupcakeHubGames/main/BuildABoatGold", true))()
+end)
+
+MadCity.Name = "MadCity"
+MadCity.Parent = ScreenGui
+MadCity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadCity.Position = UDim2.new(0.209989876, 0, 0.551648378, 0)
+MadCity.Size = UDim2.new(0, 148, 0, 50)
+MadCity.Font = Enum.Font.Oswald
+MadCity.Text = "Mad City"
+MadCity.TextColor3 = Color3.fromRGB(0, 0, 0)
+MadCity.TextSize = 18.000
+MadCity.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconLords/Random-Shit/main/MAD%20cITY"))()
+end)
+
+LegendsOfSpeed.Name = "LegendsOfSpeed"
+LegendsOfSpeed.Parent = ScreenGui
+LegendsOfSpeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LegendsOfSpeed.Position = UDim2.new(0.640163183, 0, 0.551648378, 0)
+LegendsOfSpeed.Size = UDim2.new(0, 148, 0, 50)
+LegendsOfSpeed.Font = Enum.Font.Oswald
+LegendsOfSpeed.Text = "Legends Of Speed"
+LegendsOfSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+LegendsOfSpeed.TextSize = 19.000
+LegendsOfSpeed.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://ghostbin.com/jHTKO/raw'))()
+end)
